@@ -8,7 +8,7 @@ This repo helps you to compile OQSProvider https://github.com/open-quantum-safe/
 ## Build Steps
 ### Build your image
 ```bash
-docker -t oqsprovider .
+docker build -t oqsprovider .
 ```
 ### Run your container
 ```bash
